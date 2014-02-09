@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ADAutoLayout"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A category on UIView to simplify programmatically use of Auto Layout."
   s.description      = "Auto Layout constraints constants as properties. More options will be added soon."
   s.license          = 'MIT'
