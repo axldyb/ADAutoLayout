@@ -24,10 +24,7 @@
 // THE SOFTWARE.
 
 #import "ADViewController.h"
-
-@interface ADViewController ()
-
-@end
+#import "UIView+AutoLayout.h"
 
 @implementation ADViewController
 
@@ -35,8 +32,15 @@
 {
     [super viewDidLoad];
 	
+    UIView *view = [[UIView alloc] init];
+    [view setBackgroundColor:[UIColor redColor]];
+    [view setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.view addSubview:view];
     
-    
+    view.constantHeight  = 100;
+    view.constantWidth   = 100;
+    view.constantTop     = 100;
+    view.constantLeading = 100;
 }
 
 @end
