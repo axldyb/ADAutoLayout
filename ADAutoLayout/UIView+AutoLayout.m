@@ -132,7 +132,7 @@
                                                                           attribute:attribute
                                                                           relatedBy:NSLayoutRelationEqual
                                                                              toItem:self.superview
-                                                                          attribute:NSLayoutAttributeTop
+                                                                          attribute:attribute
                                                                          multiplier:1.0
                                                                            constant:constant];
             [self.superview addConstraint:constraint];
