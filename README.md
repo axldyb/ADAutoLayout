@@ -5,9 +5,7 @@
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Project directory first.
-
-## Requirements
+To run the example project; clone the repo, and run `pod install` from the Project directory first. </br> If you are running CocoaPods 0.29 or newer run `pod try ADAutoLayout`.
 
 ## Installation
 

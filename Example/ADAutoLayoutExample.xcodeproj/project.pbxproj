@@ -21,6 +21,7 @@
 		9C623EE218A7C01E0026670F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C623EC418A7C01D0026670F /* UIKit.framework */; };
 		9C623EEA18A7C01E0026670F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C623EE818A7C01E0026670F /* InfoPlist.strings */; };
 		9C623EEC18A7C01E0026670F /* ADAutoLayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C623EEB18A7C01E0026670F /* ADAutoLayoutExampleTests.m */; };
+		9C623EF818A7C0BE0026670F /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C623EF718A7C0BE0026670F /* UIView+AutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9C623EE718A7C01E0026670F /* ADAutoLayoutExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADAutoLayoutExampleTests-Info.plist"; sourceTree = "<group>"; };
 		9C623EE918A7C01E0026670F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C623EEB18A7C01E0026670F /* ADAutoLayoutExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAutoLayoutExampleTests.m; sourceTree = "<group>"; };
+		9C623EF618A7C0BE0026670F /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		9C623EF718A7C0BE0026670F /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		9C623EB418A7C01D0026670F = {
 			isa = PBXGroup;
 			children = (
+				9C623EF518A7C0A30026670F /* ADAutoLayout */,
 				9C623EC618A7C01D0026670F /* ADAutoLayoutExample */,
 				9C623EE518A7C01E0026670F /* ADAutoLayoutExampleTests */,
 				9C623EBF18A7C01D0026670F /* Frameworks */,
@@ -150,6 +154,15 @@
 				9C623EE818A7C01E0026670F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C623EF518A7C0A30026670F /* ADAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9C623EF618A7C0BE0026670F /* UIView+AutoLayout.h */,
+				9C623EF718A7C0BE0026670F /* UIView+AutoLayout.m */,
+			);
+			name = ADAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C623ECD18A7C01D0026670F /* main.m in Sources */,
+				9C623EF818A7C0BE0026670F /* UIView+AutoLayout.m in Sources */,
 				9C623ED718A7C01D0026670F /* ADViewController.m in Sources */,
 				9C623ED118A7C01D0026670F /* ADAppDelegate.m in Sources */,
 			);
@@ -461,6 +475,7 @@
 				9C623EF118A7C01E0026670F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C623EF218A7C01E0026670F /* Build configuration list for PBXNativeTarget "ADAutoLayoutExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				9C623EF418A7C01E0026670F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
