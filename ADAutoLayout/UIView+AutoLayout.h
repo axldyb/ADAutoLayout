@@ -25,13 +25,48 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ ADAutoLayout enables Auto Layout constanst to be used as properties.
+ 
+ ## Notes
+ 
+ For now, ADAutoLayout supports only height, width, top, bottom, leading and trailing constants without any support for priority, hugging or compression resistance.
+ **/
+
 @interface UIView (AutoLayout)
 
+///-----------------
+/// @name Properties
+///-----------------
+
+/**
+ Property for accessing and setting height contraint constant.
+ */
 @property (nonatomic, assign) CGFloat constantHeight;
+
+/**
+ Property for accessing and setting width contraint constant.
+ */
 @property (nonatomic, assign) CGFloat constantWidth;
+
+/**
+ Property for accessing and setting top contraint constant.
+ */
 @property (nonatomic, assign) CGFloat constantTop;
+
+/**
+ Property for accessing and setting bottom contraint constant.
+ */
 @property (nonatomic, assign) CGFloat constantBottom;
+
+/**
+ Property for accessing and setting leading contraint constant.
+ */
 @property (nonatomic, assign) CGFloat constantLeading;
+
+/**
+ Property for accessing and setting trailing contraint constant.
+ */
 @property (nonatomic, assign) CGFloat constantTrailing;
 
 @end
